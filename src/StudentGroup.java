@@ -40,7 +40,11 @@ public class StudentGroup implements StudentArrayOperation {
 			{
 				for(int i=0;i<students.length;i++)
 				{
-					this.students[i]=students[i];
+					this.students[i].setId(students[i].getId());
+					this.students[i].setBirthDate(students[i].getBirthDate());
+					this.students[i].setFullName(students[i].getFullName());
+					this.students[i].setBirthDate(students[i].getBirthDate());
+					this.students[i].setAvgMark(students[i].getAvgMark());
 					
 				}
 			}
